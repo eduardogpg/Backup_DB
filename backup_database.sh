@@ -4,10 +4,8 @@ USER="root"
 PASSWORD=""
 DATABASE="test"
 
-REMOTE_PATH="BackUpDataBase" 
 FINAL_OUTPUT=`date +%Y%m%d`_$DATABASE.sql
-FINAL_OUTPUT_GZ=$FINAL_OUTPUT.gz
-
+OTHER_FINAL_OUTPUT=your_new_path/`date +%Y%m%d`_$DATABASE.sql
 
 #BackUp
 mysqldump --user=$USER --password=$PASSWORD $DATABASE >  $FINAL_OUTPUT
