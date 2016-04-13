@@ -14,6 +14,6 @@ Only version
 ### Execution
 
 ```sh
-$ ./bacckup_database.sh
+$ ./backup_database.sh
 ```
 
